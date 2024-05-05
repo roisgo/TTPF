@@ -96,8 +96,8 @@
 # Carga de datos
 
 # %%
-import math
-import itertools
+import math # TODO Librería no utilizada
+import itertools # TODO Librería no utilizada
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -105,7 +105,7 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
-from sklearn.linear_model import LogisticRegression
+from sklearn.linear_model import LogisticRegression # TODO Librería no utilizada
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.ensemble import GradientBoostingClassifier
@@ -115,7 +115,7 @@ from sklearn.metrics import roc_auc_score, precision_score, recall_score, f1_sco
 
 # %%
 try:
-    df_contract = pd.read_csv('/home/rosypc2/Escritorio/PROYECTO FINAL/contract.csv')
+    df_contract = pd.read_csv('/home/rosypc2/Escritorio/PROYECTO FINAL/contract.csv') # TODO No uses rutas absolutas, solo relativas a la carpeta del proyecto
     df_personal = pd.read_csv('/home/rosypc2/Escritorio/PROYECTO FINAL/personal.csv')
     df_internet = pd.read_csv('/home/rosypc2/Escritorio/PROYECTO FINAL/internet.csv')
     df_phone = pd.read_csv('/home/rosypc2/Escritorio/PROYECTO FINAL/phone.csv')                
